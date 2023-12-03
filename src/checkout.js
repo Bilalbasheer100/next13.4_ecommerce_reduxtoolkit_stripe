@@ -1,6 +1,6 @@
 import {loadStripe} from "@stripe/stripe-js"
 
-import React from 'react'
+
 
 export async function checkout({lineItems}) {
     let stripePromise =null
